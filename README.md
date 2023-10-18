@@ -64,11 +64,32 @@ Saat saya menjalankan python import_main.py, ia menjalankan fungsi print(__name_
 ![Screenshot 2023-10-16 215707](https://github.com/Nuno-Hadianto/speciale-variabel-if__name__-__main__-/assets/63713816/4ffad15e-a081-41b3-9e97-4dff6560958e)
 
 ```
-
-```
 *** Penutup: if __name__ == '__main__' ***
 
 Kembali ke main_module.py, mari kita perjelas dengan contoh lengkap.
+```
+![Screenshot 2023-10-18 164606](https://github.com/Nuno-Hadianto/speciale-variabel-if__name__-__main__-/assets/63713816/c3f88e0e-a916-44f0-8dd2-bbee20e4f7e3)
+
+```
+Apa yang main_module.py sekarang akan lakukan adalah:
+Jika saya menjalankan main_module.py, cetak/print Fungsi/Function Main() Dieksekusi, lain jika/else if saya mengimpor main_module.py print Fungsi main() tidak dijalankan.
+```
+![Screenshot 2023-10-18 164644](https://github.com/Nuno-Hadianto/speciale-variabel-if__name__-__main__-/assets/63713816/e26428b3-719e-4653-88a7-f13260e0b2b4)
+
+```
+*** Jalankan Fungsi Main() Dari Import_main ***
+Sekarang, Jika mau, Anda dapat menjalankan fungsi apa pun yang tersedia di main_module.py dari import_main.py.
+```
+![Screenshot 2023-10-18 165210](https://github.com/Nuno-Hadianto/speciale-variabel-if__name__-__main__-/assets/63713816/829889ca-dd77-45d3-9de2-da53244a78e9)
+
+![Screenshot 2023-10-18 165300](https://github.com/Nuno-Hadianto/speciale-variabel-if__name__-__main__-/assets/63713816/a924b29a-0dd8-442c-9fb9-70bd1ad29c7e)
+
+```
+Ini dia, jika __name__ == '__main__' berguna untuk mengimpor Modul untuk menggunakan fungsi di dalamnya, tanpa menjalankan skrip.
+```
+
+
+
 
 
 
